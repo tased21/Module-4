@@ -1,35 +1,63 @@
-body{
+body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: normal; 
-    margin: 0;  
+    font-style: normal;
+    margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.name{
+
+.name {
     color: darkorange;
 }
-section{
+
+section {
     display: flex;
 
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding-left: 5%;
 }
-.half-width img{
+
+.half-width img {
     width: 70%;
 }
-.anchor-button{
+
+.anchor-button {
     text-decoration: none;
-    background-color: rgb(238, 53, 53);
+    background-color:  rgb(196, 10, 10);
     padding: 10px 40px;
     border-radius: 10px;
     color: aliceblue;
     font-weight: 700;
 }
-#top-banner{
-    background-image: url(bg3.jpg);
-    
+
+#top-banner {
+    background-image: url(images/bg3.jpg);
+
+}
+.second-half{
+    width: 50%;
+    padding-right: 5%;
+}
+.second-half img{
+    width: 40%;
+    padding-left: 80px;
+}
+.Dream-big{
+    padding-top: 100px;
+    background-image: url(images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.download-button{
+    background-color: brown;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
 }
