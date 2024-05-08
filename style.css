@@ -64,6 +64,10 @@ h1 {
 h2{
     font-size: 40px;
 }
+#experience{
+    padding-left: 5%;
+   
+}
 .experience-area{
     background-image: url(images/bg4.jpg);
     background-repeat: no-repeat;
