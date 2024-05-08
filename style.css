@@ -13,7 +13,7 @@ h1 {
     color: darkorange;
 }
 
-section {
+.flexible-container {
     display: flex;
 
 }
@@ -36,7 +36,7 @@ section {
     font-weight: 700;
 }
 
-#top-banner {
+.top-banner {
     background-image: url(images/bg3.jpg);
 
 }
@@ -60,4 +60,38 @@ section {
     padding: 10px 40px;
     border-radius: 10px;
     font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+#pro{
+    color: coral;
+}
+#learner{
+    color: coral;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 40px gray; 
+}
+#full-stack-developer{
+    border-left: 7px solid orangered;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
